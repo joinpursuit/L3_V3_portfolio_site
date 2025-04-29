@@ -1,0 +1,25 @@
+
+
+.logo-img:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  font-size: 18px; 
+  color: #4A5568; 
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.nav-buttons:hover {
+  color: #805AD5; 
+  transform: scale(1);
+}
+
+
