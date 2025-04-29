@@ -49,33 +49,39 @@ const LandingPage = () => {
       <section className="w-full max-w-6xl px-6 py-16">
         <h2 className="text-4xl font-bold text-duke-blue text-center mb-12">Featured Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          
-          {/* Project 1 */}
-          <div className="bg-white p-8 rounded-lg shadow-dark-lg hover:shadow-dark-xl transition duration-300 flex flex-col items-center text-center">
-            <h3 className="text-2xl font-bold text-duke-blue mb-4">Portfolio Website</h3>
-            <p className="text-gray-600 mb-6">
-              A modern, responsive portfolio site built with React and TailwindCSS to showcase my skills and creativity.
+
+          {/* Drippy */}
+          <div className="bg-white p-8 rounded-lg shadow-dark-lg hover:shadow-dark-xl transition duration-300 flex flex-col items-start">
+            <div className="bg-light-blue rounded-lg p-4 mb-6 w-full flex justify-center">
+              <img src="/src/assets/drippylogo.png" alt="Drippy Logo" className="h-20 object-contain" />
+            </div>
+            <h3 className="text-2xl font-bold text-duke-blue mb-2">Drippy</h3>
+            <p className="text-sm italic text-gray-500 mb-4">Tech: JavaScript, React.js, Express.js, Node.js, CSS, Cloudinary, Firebase, OpenAI API</p>
+            <p className="text-gray-700 mb-4">
+              Drippy is a virtual wardrobe app that uses AI to suggest outfits based on weather, environment, and personal preferences. 
+              I led a 3-person dev team, built the backend, implemented Firebase authentication, and integrated Cloudinary for clothing image uploads.
             </p>
-            <button
-              onClick={handleProjectsClick}
-              className="bg-duke-blue hover:bg-light-blue text-white font-bold py-2 px-6 rounded-lg transition duration-300"
-            >
-              View Details
-            </button>
+            <div className="flex space-x-4 mt-auto">
+              <a href="https://dripy.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-light-blue font-semibold hover:underline">Live Site</a>
+              <a href="https://github.com/MichaelARestrepoross/Drippy-Client" target="_blank" rel="noopener noreferrer" className="text-light-blue font-semibold hover:underline">GitHub</a>
+            </div>
           </div>
 
-          {/* Project 2 */}
-          <div className="bg-white p-8 rounded-lg shadow-dark-lg hover:shadow-dark-xl transition duration-300 flex flex-col items-center text-center">
-            <h3 className="text-2xl font-bold text-duke-blue mb-4">Weather App</h3>
-            <p className="text-gray-600 mb-6">
-              A full-stack weather application that displays live weather updates using external APIs, optimized for mobile and desktop.
+          {/* SafePlate */}
+          <div className="bg-white p-8 rounded-lg shadow-dark-lg hover:shadow-dark-xl transition duration-300 flex flex-col items-start">
+            <div className="bg-light-blue rounded-lg p-4 mb-6 w-full flex justify-center">
+              <img src="/src/assets/SafePlateLogo.png" alt="SafePlate Logo" className="h-20 object-contain" />
+            </div>
+            <h3 className="text-2xl font-bold text-duke-blue mb-2">SafePlate</h3>
+            <p className="text-sm italic text-gray-500 mb-4">Tech: JavaScript, React.js, CSS, HTML, Node.js</p>
+            <p className="text-gray-700 mb-4">
+              SafePlate is a meal planning app for people with dietary restrictions. 
+              I contributed to backend API integration and led a team of 6. We implemented advanced filtering, user profiles, and a responsive UI using React.
             </p>
-            <button
-              onClick={handleProjectsClick}
-              className="bg-duke-blue hover:bg-light-blue text-white font-bold py-2 px-6 rounded-lg transition duration-300"
-            >
-              View Details
-            </button>
+            <div className="flex space-x-4 mt-auto">
+              <a href="https://safeplate1.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-light-blue font-semibold hover:underline">Live Site</a>
+              <a href="https://github.com/MichaelARestrepoross/safeplate-project" target="_blank" rel="noopener noreferrer" className="text-light-blue font-semibold hover:underline">GitHub</a>
+            </div>
           </div>
 
         </div>
