@@ -1,0 +1,38 @@
+:root {
+    --jet: #282B2B;
+    --cadet-gray: #7AA6B3;
+    --platinum: #E8E7E3;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: var(--jet) ;
+}
+
+#header h1 {
+    color: var(--platinum);
+    margin-left: 50px;
+}
+
+#profile-picture {
+    min-width: 92px;
+    min-height: 138px;
+    border-radius: 25%;
+    width: 30%;
+    height: auto;
+    margin: 40px;
+}
