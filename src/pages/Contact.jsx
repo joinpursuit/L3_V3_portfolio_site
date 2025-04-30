@@ -1,21 +1,51 @@
 import React from 'react';
+import './Contact.css';
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-light-blue flex flex-col items-center justify-center py-10">
-      <h1 className="text-4xl font-bold text-duke-blue mb-8">Contact Me</h1>
-      <p className="text-gray-700 text-lg mb-8 text-center max-w-xl">
-        I'd love to hear from you! Whether you have a question, project idea, or just want to connect, feel free to reach out.
-      </p>
+    <div className="min-h-screen bg-gradient-to-b from-light-blue to-white flex flex-col items-center justify-center px-6 py-16">
+      <h1 className="text-5xl font-bold text-duke-blue mb-10">Get in Touch</h1>
 
-      <div className="bg-white rounded-lg shadow-dark-lg p-8 flex flex-col items-center">
-        <p className="text-xl mb-4 text-gray-800">Email me at:</p>
-        <a 
-          href="mailto:michaelrestrepoross@pursuit.org" 
-          className="text-light-blue text-2xl font-semibold hover:underline"
-        >
-          michaelrestrepoross@pursuit.org
-        </a>
+      <div className="bg-white shadow-dark-lg rounded-xl p-10 w-full max-w-xl text-center">
+        <p className="text-lg text-gray-700 mb-6">
+          Have a question, opportunity, or just want to connect? Feel free to reach out:
+        </p>
+
+        <ul className="space-y-4 text-lg">
+          <li>
+            <span className="font-semibold">Email:</span>{' '}
+            <a
+              href="mailto:michaelrestrepoross@pursuit.org"
+              className="contact-link float-hover"
+            >
+              michaelrestrepoross@pursuit.org
+            </a>
+          </li>
+
+          <li>
+            <span className="font-semibold">LinkedIn:</span>{' '}
+            <a
+              href="https://www.linkedin.com/in/michael-restrepoross"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-link float-hover"
+            >
+              linkedin.com/in/michael-restrepoross
+            </a>
+          </li>
+
+          <li>
+            <span className="font-semibold">GitHub:</span>{' '}
+            <a
+              href="https://github.com/MichaelARestrepoross"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-link float-hover"
+            >
+              github.com/MichaelARestrepoross
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );
