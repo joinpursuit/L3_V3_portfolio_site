@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,88 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    </head>
 </head>
-<body>
-    Welcome to my Portfolio Website
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
 
+<body>
+    <header>
+        <h1>Welcome to my Portfolio Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <video autoplay muted loop class="hero-video">
+                <source src="assets/CliffOcean.mp4" type="video/mp4">
+                (Your browser does not support this video)
+            </video>
+            <div class="hero-content">
+                <h1>Hi, I'm Sarah!</h1>
+                <p>Welcome To My Software Engineering Journey</p>
+                <a href="#about" class="cta-button">Learn More</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="assets/MyPic.jpg" alt="Sarah" class="profile-photo">
+                <p>Hello! I'm a passionate and dedicated Full Stack Software Engineer with a strong background in both front-end and back-end development. My journey in software engineering began with a rigorous training program at Pursuit Fellowship, where I honed my skills in JavaScript, TypeScript, React, Node.js, and more. I have a proven track record of building robust, scalable web applications and collaborating effectively with cross-functional teams.</p>
+            </div>
+        </section>
+
+        <section class="journey">
+            <h2>My Journey</h2>
+            <p>My career in tech started with a solid foundation in hospitality management, where I developed strong communication and leadership skills. This background has been invaluable in my transition to software engineering, allowing me to approach complex problems with a user-centric mindset.</p>
+        </section>
+
+        <section class="skills">
+            <h2>Technical Expertise</h2>
+            <p>I am proficient in a wide range of technologies, including:</p>
+            <ul>
+                <li><strong>Front End:</strong> JavaScript, TypeScript, React, React Native, Next.js, Chart.js, Redux Toolkit, HTML/CSS, SCSS, Bootstrap, Jest</li>
+                <li><strong>Back End:</strong> PostgreSQL, MySQL, Express.js, Axios, JSON</li>
+                <li><strong>Deployment:</strong> Netlify, Vercel, Render, PlanetScale</li>
+                <li><strong>Developer Tools:</strong> Git, npm, GitHub, Xcode, Postman</li>
+                <li><strong>Libraries:</strong> TailwindCSS, Firebase, Clerk, Mindee OCR</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <p>I have worked on several impactful projects, including:</p>
+            <ul>
+                <li><strong>SOKA:</strong> A social fitness app that connects users based on their fitness goals. I integrated key features, designed the karma star and badge system, and managed the project using Trello.</li>
+                <li><strong>NutraBot:</strong> An app that helps users research and store food nutrition data. I implemented a calorie counter and custom food product feature, and managed the project using Trello.</li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            <p>I have had the opportunity to work with industry leaders, including Uber, where I participated in their highly selective Software Engineering Training Program. This experience has given me insights into advanced concepts and industry best practices.</p>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <p>I hold a certificate in Full Stack Software Engineering from Pursuit Fellowship and a degree in Hospitality Management from New York City College of Technology. My educational background has equipped me with the technical skills and professional acumen needed to excel in the tech industry.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>I am always eager to take on new challenges and collaborate with like-minded professionals. Feel free to reach out to discuss potential projects or opportunities.</p>
+            <a href="mailto:@pursuit.org">Contact Me</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sarah's Software Engineering Journey. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
