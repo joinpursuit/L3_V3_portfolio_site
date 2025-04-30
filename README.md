@@ -1,100 +1,14 @@
-# Portfolio Website Project — Week 1
+# Rosmary Fermin
 
-## Overview
-Welcome to your first project! In this one-week assignment, you'll create a **personal portfolio website** using only **HTML and CSS**. This project will serve as your personal hub for showcasing your work throughout the program, including your full-stack and mobile apps — as well as any other projects you build outside the curriculum.
+## Bio 
+I am driven by empathy, with a strong focus on fostering community and giving back. In all my previous roles, my primary goal has been to add value to my team and enhance the experience of those I serve. I achieve this by building strong relationships with my team and proactively suggesting and implementing solutions that improve overall team or user experiences.​
 
-This is a low-lift, high-value opportunity to get into the rhythm of:
-- Writing clean, semantic code
-- Using GitHub properly (commits, branches, PRs)
-- Deploying a live website
-- Receiving and applying instructor feedback via PRs
+My expertise lies in Full Stack software development, with experience in building web applications using JavaScript, TypeScript, Node/Express, React, and Ruby on Rails. I prioritize effective communication and collaboration, meticulous process documentation, thorough unit testing, and consistently improving the codebase.
 
----
+Before transitioning to software development, I worked in retail-tech, where I earned high customer satisfaction ratings by providing comprehensive solutions for purchasing, troubleshooting, and repairing devices.
 
-## Goals
-- Build a fully responsive portfolio site with semantic HTML and styled using CSS
-- Practice making clean commits and submitting pull requests
-- Deploy the website using GitHub Pages or Netlify
-- Set the foundation for your technical presence
+My passion for fostering community and giving back drives me to volunteer with local tech and community organizations such as The Marcy Lab School, The New York Tech Talent Pipeline, Hiraldo's Kai Karate School, Inspirationally Grieving My Baby, and New York Cares.
 
----
+Deployed Site: https://rosmaryfc.github.io/L3_V3_portfolio_site/
 
-## Requirements
-- [ ] A `README.md` file that includes your name, a short bio, and a link to the deployed site
-- [ ] A responsive layout that works on both mobile and desktop
-- [ ] The following sections:
-  - **Home** – Welcome message and name
-  - **About Me** – Short background, skills, and interests
-  - **Projects** – A placeholder or sample project card (you'll add more here throughout the program)
-  - **Contact** – Email or form (does not need to be functional)
-
----
-
-## Suggested File Structure
-```
-portfolio-site/
-├── index.html
-├── styles/
-│   └── main.css
-└── README.md
-```
-
----
-
-## Deployment
-- You may deploy using:
-  - **GitHub Pages** (recommended for simple site and can link to your profile)
-  - **Netlify** (optional but powerful, take into consideration your usecase)
-
----
-
-## Submission Checklist
-- [ ] Add your instructor as a collaborator on your GitHub repo
-- [ ] Submit a Pull Request (PR) with your complete code
-- [ ] Link to your live site in the PR and `README.md`
-- [ ] PR includes multiple commits (not one giant commit)
-- [ ] HTML is semantic and passes a basic validator (like https://validator.w3.org/)
-
----
-
-## Tips
-- Use [Google Fonts](https://fonts.google.com/) to make it look polished
-- Don’t worry about JavaScript — just focus on layout and styling
-- Keep your CSS organized (use class naming conventions and grouping)
-- You can use tools like [Figma](https://www.figma.com/) or [Excalidraw](https://excalidraw.com/) when planning your layout first
-
----
-
-## Sample Portfolio Layout Template
-You can model your structure after the following:
-
-```
-┌───────────────────────────────────────────┐
-│ Navbar: Home | About | Projects | Contact │
-├───────────────────────────────────────────┤
-│ [Hero Section]                            │
-│ Hi, I'm [Your Name]                       │
-│ Aspiring Software Engineer                │
-├───────────────────────────────────────────┤
-│ About Me                                  │
-│ - Background, photo, skills               │
-├───────────────────────────────────────────┤
-│ Projects                                  │
-│ - Placeholder card(s)                     │
-├───────────────────────────────────────────┤
-│ Contact                                   │
-│ - Email or contact form                   │
-└───────────────────────────────────────────┘
-```
-
----
-
-## Instructor Notes
-This is your first opportunity to:
-- Show ownership of your code
-- Get into the habit of submitting PRs with context
-- Start building your professional developer presence
-- Check out my site for inspiration! but please if you use a template, make it your own
-- https://joseivanmejia.com/
-
-Use this site as your personal brand, your portfolio is your story! Above all have fun. 
+figma design: https://www.figma.com/design/ed5hMtcspPhZgbyE14p7Fu/L3-portfolio?node-id=0-1&p=f&t=7Ka5iC1ORuY5t1DY-0
