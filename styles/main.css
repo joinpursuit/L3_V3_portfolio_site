@@ -71,3 +71,11 @@ section p {
 }
 
 /* End body section */
+
+/* Footer section */
+footer {
+    background-color: #010101;
+    color: white;
+    padding: 1rem;
+
+}
