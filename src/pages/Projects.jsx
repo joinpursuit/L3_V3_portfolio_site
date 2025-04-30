@@ -33,13 +33,13 @@ const Projects = () => {
             key={index}
             className="bg-white p-8 rounded-lg shadow-dark-lg hover:shadow-dark-xl transition duration-300 flex flex-col items-start"
           >
-            <div className="bg-light-blue rounded-lg p-4 mb-6 w-full flex justify-center">
-              <img
-                src={project.logo}
-                alt={`${project.title} Logo`}
-                className="h-20 object-contain"
-              />
-            </div>
+          <div className="bg-light-blue rounded-lg p-4 mb-6 w-full flex justify-center">
+            <img
+              src={project.logo}
+              alt={`${project.title} Logo`}
+              className="h-32 object-contain"
+            />
+          </div>
             <h2 className="text-2xl font-bold text-duke-blue mb-2">{project.title}</h2>
             <p className="text-sm italic text-gray-500 mb-4">Tech: {project.tech}</p>
             <p className="text-gray-700 mb-4">{project.description}</p>
