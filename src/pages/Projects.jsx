@@ -8,7 +8,7 @@ const projects = [
       I led a 3-person team, built the backend, handled Firebase login, and used Cloudinary for image uploads.`,
     live: 'https://dripy.netlify.app/',
     github: 'https://github.com/MichaelARestrepoross/Drippy-Client',
-    logo: '/src/assets/drippylogo.png',
+    logo: 'https://res.cloudinary.com/dm8xhvx4t/image/upload/v1746048673/drippylogo_imjrbm.png',
   },
   {
     title: 'SafePlate',
@@ -18,7 +18,7 @@ const projects = [
       Worked in a team of 6 with strong focus on accessibility and usability.`,
     live: 'https://safeplate1.netlify.app/',
     github: 'https://github.com/MichaelARestrepoross/safeplate-project',
-    logo: '/src/assets/SafePlateLogo.png',
+    logo: 'https://res.cloudinary.com/dm8xhvx4t/image/upload/v1746048697/SafePlateLogo_fys4yi.png',
   }
 ];
 
@@ -29,18 +29,35 @@ const Projects = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
         {projects.map((project, index) => (
-          <div key={index} className="bg-white p-8 rounded-lg shadow-dark-lg hover:shadow-dark-xl transition duration-300 flex flex-col items-start">
+          <div
+            key={index}
+            className="bg-white p-8 rounded-lg shadow-dark-lg hover:shadow-dark-xl transition duration-300 flex flex-col items-start"
+          >
             <div className="bg-light-blue rounded-lg p-4 mb-6 w-full flex justify-center">
-              <img src={project.logo} alt={`${project.title} Logo`} className="h-20 object-contain" />
+              <img
+                src={project.logo}
+                alt={`${project.title} Logo`}
+                className="h-20 object-contain"
+              />
             </div>
             <h2 className="text-2xl font-bold text-duke-blue mb-2">{project.title}</h2>
             <p className="text-sm italic text-gray-500 mb-4">Tech: {project.tech}</p>
             <p className="text-gray-700 mb-4">{project.description}</p>
             <div className="flex space-x-4 mt-auto">
-              <a href={project.live} target="_blank" rel="noopener noreferrer" className="text-light-blue font-semibold hover:underline">
+              <a
+                href={project.live}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-light-blue font-semibold hover:underline"
+              >
                 Live Site
               </a>
-              <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-light-blue font-semibold hover:underline">
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-light-blue font-semibold hover:underline"
+              >
                 GitHub
               </a>
             </div>
