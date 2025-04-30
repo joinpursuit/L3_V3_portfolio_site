@@ -1,100 +1,61 @@
-# Portfolio Website Project — Week 1
+# Michael Restrepoross | Portfolio Website
 
-## Overview
-Welcome to your first project! In this one-week assignment, you'll create a **personal portfolio website** using only **HTML and CSS**. This project will serve as your personal hub for showcasing your work throughout the program, including your full-stack and mobile apps — as well as any other projects you build outside the curriculum.
+Welcome to my personal portfolio site!  
+This project showcases my background, technical skills, and software engineering projects — built to grow alongside my career.
 
-This is a low-lift, high-value opportunity to get into the rhythm of:
-- Writing clean, semantic code
-- Using GitHub properly (commits, branches, PRs)
-- Deploying a live website
-- Receiving and applying instructor feedback via PRs
+## 🔗 Live Site
+
+👉 [https://michaelrestrepoross.netlify.app](https://michaelrestrepoross.netlify.app)
 
 ---
 
-## Goals
-- Build a fully responsive portfolio site with semantic HTML and styled using CSS
-- Practice making clean commits and submitting pull requests
-- Deploy the website using GitHub Pages or Netlify
-- Set the foundation for your technical presence
+## 📁 Project Overview
+
+This fully responsive site was created with HTML, CSS, React, and TailwindCSS.  
+It features:
+
+- A custom landing page  
+- An About Me section with image and skills summary  
+- A featured projects section with live demos and GitHub links  
+- A simple contact page
 
 ---
 
-## Requirements
-- [ ] A `README.md` file that includes your name, a short bio, and a link to the deployed site
-- [ ] A responsive layout that works on both mobile and desktop
-- [ ] The following sections:
-  - **Home** – Welcome message and name
-  - **About Me** – Short background, skills, and interests
-  - **Projects** – A placeholder or sample project card (you'll add more here throughout the program)
-  - **Contact** – Email or form (does not need to be functional)
+## 🧑‍💻 About Me
+
+I'm Michael Restrepoross, a full-stack software engineer with a background in computer science and a concentration in cybersecurity.  
+I specialize in building thoughtful, scalable applications using React, Node.js, Firebase, SQL, and other modern tools.  
+
+Notable Projects I've built include:  
+- **Drippy**: an AI-powered virtual wardrobe assistant  
+- **SafePlate**: a dietary-aware meal planner built for accessibility
+
+I'm always learning and enjoy creating practical, human-centered software.
 
 ---
 
-## Suggested File Structure
-```
-portfolio-site/
-├── index.html
-├── styles/
-│   └── main.css
-└── README.md
-```
+## 🛠️ Tech Stack
+
+- JavaScript
+- CSS
+- React  
+- TailwindCSS  
+- Vite  
+- HTML/CSS  
+- Git + GitHub  
 
 ---
 
-## Deployment
-- You may deploy using:
-  - **GitHub Pages** (recommended for simple site and can link to your profile)
-  - **Netlify** (optional but powerful, take into consideration your usecase)
+## 🧪 Running Locally
 
----
-
-## Submission Checklist
-- [ ] Add your instructor as a collaborator on your GitHub repo
-- [ ] Submit a Pull Request (PR) with your complete code
-- [ ] Link to your live site in the PR and `README.md`
-- [ ] PR includes multiple commits (not one giant commit)
-- [ ] HTML is semantic and passes a basic validator (like https://validator.w3.org/)
-
----
-
-## Tips
-- Use [Google Fonts](https://fonts.google.com/) to make it look polished
-- Don’t worry about JavaScript — just focus on layout and styling
-- Keep your CSS organized (use class naming conventions and grouping)
-- You can use tools like [Figma](https://www.figma.com/) or [Excalidraw](https://excalidraw.com/) when planning your layout first
-
----
-
-## Sample Portfolio Layout Template
-You can model your structure after the following:
-
-```
-┌───────────────────────────────────────────┐
-│ Navbar: Home | About | Projects | Contact │
-├───────────────────────────────────────────┤
-│ [Hero Section]                            │
-│ Hi, I'm [Your Name]                       │
-│ Aspiring Software Engineer                │
-├───────────────────────────────────────────┤
-│ About Me                                  │
-│ - Background, photo, skills               │
-├───────────────────────────────────────────┤
-│ Projects                                  │
-│ - Placeholder card(s)                     │
-├───────────────────────────────────────────┤
-│ Contact                                   │
-│ - Email or contact form                   │
-└───────────────────────────────────────────┘
+```bash
+git clone https://github.com/MichaelARestrepoross/your-repo-name
+cd your-repo-name
+npm install
+npm run dev
 ```
 
----
-
-## Instructor Notes
-This is your first opportunity to:
-- Show ownership of your code
-- Get into the habit of submitting PRs with context
-- Start building your professional developer presence
-- Check out my site for inspiration! but please if you use a template, make it your own
-- https://joseivanmejia.com/
-
-Use this site as your personal brand, your portfolio is your story! Above all have fun. 
+## 📫 Contact Me
+- Email: michaelrestrepoross@pursuit.org
+- LinkedIn: https://www.linkedin.com/in/michael-restrepoross /n
+- GitHub: https://github.com/MichaelARestrepoross
