@@ -57,15 +57,25 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* About Me Section */}
-      <section className="w-full max-w-5xl bg-white shadow-dark-lg rounded-xl p-10 my-10 mx-4 text-center">
-        <h2 className="text-4xl font-bold text-duke-blue mb-6">About Me</h2>
-        <p className="text-gray-700 text-lg">
-          I'm a passionate software engineer who loves turning ideas into real-world applications. 
-          My focus is on building clean, user-centered designs, scalable backends, and seamless full-stack experiences.
-          Always learning. Always creating. Always improving.
-        </p>
-      </section>
+{/* About Me Section */}
+<section className="w-full max-w-5xl bg-white shadow-dark-lg rounded-xl p-10 my-10 mx-4 text-center">
+  <h2 className="text-4xl font-bold text-duke-blue mb-6">About Me</h2>
+
+  {/* Profile Image */}
+  <div className="flex justify-center mb-6">
+    <img
+      src="https://res.cloudinary.com/dm8xhvx4t/image/upload/v1746050104/Michael_Restrepoross_kyh9fu.jpg"
+      alt="Michael Restrepoross"
+      className="h-52 w-52 rounded-full object-cover border-4 border-light-blue shadow-md"
+    />
+  </div>
+
+  <p className="text-gray-700 text-lg">
+    I'm a passionate software engineer who loves turning ideas into real-world applications. 
+    My focus is on building clean, user-centered designs, scalable backends, and seamless full-stack experiences.
+    Always learning. Always creating. Always improving.
+  </p>
+</section>
 
       {/* Projects Section */}
       <section className="w-full max-w-6xl px-6 py-16">
