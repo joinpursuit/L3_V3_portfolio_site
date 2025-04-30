@@ -70,10 +70,20 @@ const LandingPage = () => {
           />
         </div>
 
+        <p className="text-gray-700 text-lg mb-4">
+          I'm Michael Restrepoross, a full-stack software engineer from Mineola, NY with a background in computer science and a concentration in cybersecurity.
+        </p>
+
+        <p className="text-gray-700 text-lg mb-4">
+          I enjoy building scalable, user-focused applications using React, Node.js, Firebase, and SQL, and I have hands-on experience with tools like Kali Linux, Nessus, and Wireshark.
+        </p>
+
+        <p className="text-gray-700 text-lg mb-4">
+          My past projects include <strong>Drippy</strong> — an AI-powered virtual wardrobe — and <strong>SafePlate</strong>, a dietary-aware meal planner designed for accessibility and ease.
+        </p>
+
         <p className="text-gray-700 text-lg">
-          I'm a passionate software engineer who loves turning ideas into real-world applications. 
-          My focus is on building clean, user-centered designs, scalable backends, and seamless full-stack experiences.
-          Always learning. Always creating. Always improving.
+          I’m always looking to improve my skills and bring new ideas to life through creative, impactful software.
         </p>
       </section>
 
