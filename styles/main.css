@@ -45,3 +45,29 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+/*  body section */
+.container {
+    flex: 1;
+    padding: 2rem;
+}
+
+section {
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 7%;
+}
+
+section h2 {
+    font-size: large;
+}
+
+section p {
+    font-size: medium;
+    margin-top: 1rem;
+}
+
+/* End body section */
