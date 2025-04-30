@@ -27,6 +27,9 @@ body {
     z-index: 1;
 }
 
+
+/* Nav section */
+
 nav {
     background-color: #07070a;
     color: #fff;
@@ -45,6 +48,10 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+
+/*  End Nav section */
+
+
 /*  body section */
 .container {
     flex: 1;
@@ -79,3 +86,5 @@ footer {
     padding: 1rem;
 
 }
+
+/* End Footer section */
