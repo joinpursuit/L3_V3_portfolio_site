@@ -123,3 +123,23 @@ footer {
     padding: 1rem;
 
 }
+
+
+@media (max-width: 600px) {
+    .paper-container {
+      min-height: auto;
+    }
+
+    .container {
+      padding: 1rem;
+    }
+
+    nav ul {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    nav ul li {
+      width: 100%;
+    }
+  }
