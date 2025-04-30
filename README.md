@@ -1,100 +1,30 @@
-# Portfolio Website Project — Week 1
+About Me
+Hello! I'm a passionate and dedicated Full Stack Software Engineer with a  background in both front-end and back-end development. My journey in software engineering began with a rigorous training program at Pursuit Fellowship, where I honed my skills in JavaScript, TypeScript, React, Node.js, and more. I have a proven track record of building robust, scalable web applications and collaborating effectively with cross-functional teams.
 
-## Overview
-Welcome to your first project! In this one-week assignment, you'll create a **personal portfolio website** using only **HTML and CSS**. This project will serve as your personal hub for showcasing your work throughout the program, including your full-stack and mobile apps — as well as any other projects you build outside the curriculum.
+My Journey
+My career in tech started with a solid foundation in hospitality management, where I developed strong communication and leadership skills. This background has been invaluable in my transition to software engineering, allowing me to approach complex problems with a user-centric mindset.
 
-This is a low-lift, high-value opportunity to get into the rhythm of:
-- Writing clean, semantic code
-- Using GitHub properly (commits, branches, PRs)
-- Deploying a live website
-- Receiving and applying instructor feedback via PRs
+Technical Expertise
+I am proficient in a wide range of technologies, including:
 
----
+Front End: JavaScript, TypeScript, React, React Native, Next.js, Chart.js, Redux Toolkit, HTML/CSS, SCSS, Bootstrap, Jest
+Back End: PostgreSQL, MySQL, Express.js, Axios, JSON
+Deployment: Netlify, Vercel, Render, PlanetScale
+Developer Tools: Git, npm, GitHub, Xcode, Postman
+Libraries: TailwindCSS, Firebase, Clerk, Mindee OCR
 
-## Goals
-- Build a fully responsive portfolio site with semantic HTML and styled using CSS
-- Practice making clean commits and submitting pull requests
-- Deploy the website using GitHub Pages or Netlify
-- Set the foundation for your technical presence
+Projects
+I have worked on several impactful projects, including:
 
----
+SOKA: A social fitness app that connects users based on their fitness goals. I integrated key features, designed the karma star and badge system, and managed the project using Trello.
 
-## Requirements
-- [ ] A `README.md` file that includes your name, a short bio, and a link to the deployed site
-- [ ] A responsive layout that works on both mobile and desktop
-- [ ] The following sections:
-  - **Home** – Welcome message and name
-  - **About Me** – Short background, skills, and interests
-  - **Projects** – A placeholder or sample project card (you'll add more here throughout the program)
-  - **Contact** – Email or form (does not need to be functional)
+NutraBot: An app that helps users research and store food nutrition data. I implemented a calorie counter and custom food product feature, and managed the project using Trello.
 
----
+Experience
+I have had the opportunity to work with industry leaders, including Uber, where I participated in their Software Engineering Mentorship Program. This experience has given me insights into advanced concepts and industry best practices.
 
-## Suggested File Structure
-```
-portfolio-site/
-├── index.html
-├── styles/
-│   └── main.css
-└── README.md
-```
+Education
+I hold a certificate in Full Stack Software Engineering from Pursuit Fellowship and a degree in Hospitality Management from New York City of Technology. My educational background has equipped me with the technical skills and professional acumen needed to excel in the tech industry.
 
----
-
-## Deployment
-- You may deploy using:
-  - **GitHub Pages** (recommended for simple site and can link to your profile)
-  - **Netlify** (optional but powerful, take into consideration your usecase)
-
----
-
-## Submission Checklist
-- [ ] Add your instructor as a collaborator on your GitHub repo
-- [ ] Submit a Pull Request (PR) with your complete code
-- [ ] Link to your live site in the PR and `README.md`
-- [ ] PR includes multiple commits (not one giant commit)
-- [ ] HTML is semantic and passes a basic validator (like https://validator.w3.org/)
-
----
-
-## Tips
-- Use [Google Fonts](https://fonts.google.com/) to make it look polished
-- Don’t worry about JavaScript — just focus on layout and styling
-- Keep your CSS organized (use class naming conventions and grouping)
-- You can use tools like [Figma](https://www.figma.com/) or [Excalidraw](https://excalidraw.com/) when planning your layout first
-
----
-
-## Sample Portfolio Layout Template
-You can model your structure after the following:
-
-```
-┌───────────────────────────────────────────┐
-│ Navbar: Home | About | Projects | Contact │
-├───────────────────────────────────────────┤
-│ [Hero Section]                            │
-│ Hi, I'm [Your Name]                       │
-│ Aspiring Software Engineer                │
-├───────────────────────────────────────────┤
-│ About Me                                  │
-│ - Background, photo, skills               │
-├───────────────────────────────────────────┤
-│ Projects                                  │
-│ - Placeholder card(s)                     │
-├───────────────────────────────────────────┤
-│ Contact                                   │
-│ - Email or contact form                   │
-└───────────────────────────────────────────┘
-```
-
----
-
-## Instructor Notes
-This is your first opportunity to:
-- Show ownership of your code
-- Get into the habit of submitting PRs with context
-- Start building your professional developer presence
-- Check out my site for inspiration! but please if you use a template, make it your own
-- https://joseivanmejia.com/
-
-Use this site as your personal brand, your portfolio is your story! Above all have fun. 
+Let's Connect
+I am always eager to take on new challenges and collaborate with like-minded professionals. Feel free to reach out to discuss potential projects or opportunities.
