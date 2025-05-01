@@ -13,6 +13,10 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    font-size: 32px;
+}
+
 #header {
     display: flex;
     flex-direction: row;
@@ -62,10 +66,25 @@ h1 {
     color: var(--cadet-gray)
 }
 
+#about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-me-bio-container{
+    padding: 0 30px 0 30px;
+}
+
 /* mobile responsive down to 375px */
 @media (max-width: 700px ) {
     h1 {
         font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 0px;
     }
 
     #header h1 {
