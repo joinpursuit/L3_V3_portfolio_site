@@ -1,0 +1,142 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import './LandingPage.css';
+
+const projects = [
+  {
+    title: 'Drippy',
+    tech: 'JavaScript, React.js, Express.js, Node.js, CSS, Cloudinary, Firebase, OpenAI API',
+    description: `Drippy is a virtual wardrobe app that uses AI to suggest outfits based on weather, environment, and personal preferences.
+      I led a 3-person team, built the backend, handled Firebase login, and used Cloudinary for image uploads.`,
+    live: 'https://dripy.netlify.app/',
+    github: 'https://github.com/MichaelARestrepoross/Drippy-Client',
+    logo: 'https://res.cloudinary.com/dm8xhvx4t/image/upload/v1746048673/drippylogo_imjrbm.png',
+  },
+  {
+    title: 'SafePlate',
+    tech: 'JavaScript, React.js, CSS, HTML, Node.js',
+    description: `SafePlate is a meal planning app for people with dietary restrictions. 
+      I helped build the backend, filtering system, and user profile support. 
+      Worked in a team of 6 with strong focus on accessibility and usability.`,
+    live: 'https://safeplate1.netlify.app/',
+    github: 'https://github.com/MichaelARestrepoross/safeplate-project',
+    logo: 'https://res.cloudinary.com/dm8xhvx4t/image/upload/v1746048697/SafePlateLogo_fys4yi.png',
+  }
+];
+
+const LandingPage = () => {
+  const navigate = useNavigate();
+
+  const handleContactClick = () => {
+    navigate('/contact');
+  };
+
+  const handleProjectsClick = () => {
+    navigate('/projects');
+  };
+
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-light-blue to-white flex flex-col items-center px-4 sm:px-6">
+
+      {/* Hero Section */}
+      <section className="hero-section flex flex-col items-center justify-center text-center py-24 px-6 fade-up">
+        <h1 className="text-5xl md:text-6xl font-extrabold text-duke-blue mb-6">
+          Hi, I'm Michael Restrepoross
+        </h1>
+        <h2 className="text-2xl md:text-3xl text-byz-blue mb-8">
+          Aspiring Software Engineer | Full-Stack Developer
+        </h2>
+        <div className="flex gap-6">
+          <button
+            onClick={handleContactClick}
+            className="bg-duke-blue hover:bg-light-blue text-white font-bold py-3 px-6 rounded-lg transition duration-300"
+          >
+            Contact Me
+          </button>
+          <button
+            onClick={handleProjectsClick}
+            className="bg-white hover:bg-light-blue text-duke-blue font-bold py-3 px-6 rounded-lg border border-duke-blue transition duration-300"
+          >
+            View Projects
+          </button>
+        </div>
+      </section>
+
+      {/* About Me Section */}
+      <section className="about-section w-full max-w-2xl md:max-w-5xl md:bg-white md:shadow-dark-lg md:rounded-xl md:p-10 p-0 my-10 mx-4 text-center fade-in">
+        <h2 className="text-4xl font-bold text-duke-blue mb-6 mt-6 md:mt-0">About Me</h2>
+
+        {/* Profile Image */}
+        <div className="flex justify-center mb-6">
+          <div className="bg-white shadow-md p-2 rounded-full">
+            <img
+              src="https://res.cloudinary.com/dm8xhvx4t/image/upload/v1746050104/Michael_Restrepoross_kyh9fu.jpg"
+              alt="Michael Restrepoross"
+              className="h-52 w-52 rounded-full object-cover border-4 border-light-blue"
+            />
+          </div>
+        </div>
+
+        {/* Paragraph bubbles */}
+        <div className="flex flex-col md:block gap-4 md:gap-0 px-2 sm:px-4 md:px-0">
+          <p className="bio-bubble text-gray-700 text-base sm:text-lg mb-4">
+            I'm Michael Restrepoross, a full-stack software engineer with a background in computer science and a concentration in cybersecurity.
+          </p>
+          <p className="bio-bubble text-gray-700 text-base sm:text-lg mb-4">
+            I enjoy building scalable, user-focused applications using React, Node.js, Firebase, and SQL, and I have hands-on experience with tools like Kali Linux, Nessus, and Wireshark.
+          </p>
+          <p className="bio-bubble text-gray-700 text-base sm:text-lg mb-4">
+            My past projects include <strong>Drippy</strong> — an AI-powered virtual wardrobe — and <strong>SafePlate</strong>, a dietary-aware meal planner designed for accessibility and ease.
+          </p>
+          <p className="bio-bubble text-gray-700 text-base sm:text-lg">
+            I’m always looking to improve my skills and bring new ideas to life through creative, impactful software.
+          </p>
+        </div>
+      </section>
+
+      {/* Projects Section */}
+      <section className="w-full max-w-6xl px-4 py-16 fade-in">
+        <h2 className="text-4xl font-bold text-duke-blue text-center mb-12">Featured Projects</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className="project-card bg-white p-8 rounded-lg shadow-dark-lg hover:shadow-dark-xl transition duration-300 flex flex-col items-start fade-up delay"
+            >
+              <div className="bg-light-blue rounded-lg p-4 mb-6 w-full flex justify-center">
+                <img
+                  src={project.logo}
+                  alt={`${project.title} Logo`}
+                  className="h-32 object-contain"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-duke-blue mb-2">{project.title}</h3>
+              <p className="text-sm italic text-gray-500 mb-4">Tech: {project.tech}</p>
+              <p className="text-gray-700 mb-4">{project.description}</p>
+              <div className="flex space-x-4 mt-auto">
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-light-blue font-semibold hover:underline"
+                >
+                  Live Site
+                </a>
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-light-blue font-semibold hover:underline"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default LandingPage;

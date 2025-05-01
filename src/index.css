@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;         /* More mobile-friendly */
+  line-height: 1.6;        /* More natural than 40px */
+}
+
+button {
+  color: white;
+  background: #805AD5;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+}

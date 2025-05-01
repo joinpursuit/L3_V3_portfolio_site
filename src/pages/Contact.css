@@ -1,0 +1,32 @@
+/* styles/Contact.css */
+
+.contact-link {
+    color: #407BA7;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: #407BA7;
+    transition: width 0.3s ease;
+  }
+  
+  .contact-link:hover::after {
+    width: 100%;
+  }
+  
+  .float-hover {
+    transition: transform 0.3s ease;
+  }
+  
+  .float-hover:hover {
+    transform: translateY(-4px);
+  }
+  
