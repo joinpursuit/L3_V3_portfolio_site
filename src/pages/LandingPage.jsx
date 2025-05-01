@@ -36,7 +36,7 @@ const LandingPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-light-blue to-white flex flex-col items-center">
+    <div className="min-h-screen bg-gradient-to-b from-light-blue to-white flex flex-col items-center px-4 sm:px-6">
 
       {/* Hero Section */}
       <section className="hero-section flex flex-col items-center justify-center text-center py-24 px-6 fade-up">
@@ -63,36 +63,39 @@ const LandingPage = () => {
       </section>
 
       {/* About Me Section */}
-      <section className="about-section w-full max-w-5xl bg-white shadow-dark-lg rounded-xl p-10 my-10 mx-4 text-center fade-in">
-        <h2 className="text-4xl font-bold text-duke-blue mb-6">About Me</h2>
+      <section className="about-section w-full max-w-2xl md:max-w-5xl md:bg-white md:shadow-dark-lg md:rounded-xl md:p-10 p-0 my-10 mx-4 text-center fade-in">
+        <h2 className="text-4xl font-bold text-duke-blue mb-6 mt-6 md:mt-0">About Me</h2>
 
+        {/* Profile Image */}
         <div className="flex justify-center mb-6">
-          <img
-            src="https://res.cloudinary.com/dm8xhvx4t/image/upload/v1746050104/Michael_Restrepoross_kyh9fu.jpg"
-            alt="Michael Restrepoross"
-            className="h-52 w-52 rounded-full object-cover border-4 border-light-blue shadow-md"
-          />
+          <div className="bg-white shadow-md p-2 rounded-full">
+            <img
+              src="https://res.cloudinary.com/dm8xhvx4t/image/upload/v1746050104/Michael_Restrepoross_kyh9fu.jpg"
+              alt="Michael Restrepoross"
+              className="h-52 w-52 rounded-full object-cover border-4 border-light-blue"
+            />
+          </div>
         </div>
 
-        <p className="text-gray-700 text-lg mb-4">
-          I'm Michael Restrepoross, a full-stack software engineer with a background in computer science and a concentration in cybersecurity.
-        </p>
-
-        <p className="text-gray-700 text-lg mb-4">
-          I enjoy building scalable, user-focused applications using React, Node.js, Firebase, and SQL, and I have hands-on experience with tools like Kali Linux, Nessus, and Wireshark.
-        </p>
-
-        <p className="text-gray-700 text-lg mb-4">
-          My past projects include <strong>Drippy</strong> — an AI-powered virtual wardrobe — and <strong>SafePlate</strong>, a dietary-aware meal planner designed for accessibility and ease.
-        </p>
-
-        <p className="text-gray-700 text-lg">
-          I’m always looking to improve my skills and bring new ideas to life through creative, impactful software.
-        </p>
+        {/* Paragraph bubbles */}
+        <div className="flex flex-col md:block gap-4 md:gap-0 px-2 sm:px-4 md:px-0">
+          <p className="bio-bubble text-gray-700 text-base sm:text-lg mb-4">
+            I'm Michael Restrepoross, a full-stack software engineer with a background in computer science and a concentration in cybersecurity.
+          </p>
+          <p className="bio-bubble text-gray-700 text-base sm:text-lg mb-4">
+            I enjoy building scalable, user-focused applications using React, Node.js, Firebase, and SQL, and I have hands-on experience with tools like Kali Linux, Nessus, and Wireshark.
+          </p>
+          <p className="bio-bubble text-gray-700 text-base sm:text-lg mb-4">
+            My past projects include <strong>Drippy</strong> — an AI-powered virtual wardrobe — and <strong>SafePlate</strong>, a dietary-aware meal planner designed for accessibility and ease.
+          </p>
+          <p className="bio-bubble text-gray-700 text-base sm:text-lg">
+            I’m always looking to improve my skills and bring new ideas to life through creative, impactful software.
+          </p>
+        </div>
       </section>
 
       {/* Projects Section */}
-      <section className="w-full max-w-6xl px-6 py-16 fade-in">
+      <section className="w-full max-w-6xl px-4 py-16 fade-in">
         <h2 className="text-4xl font-bold text-duke-blue text-center mb-12">Featured Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {projects.map((project, index) => (
@@ -132,7 +135,6 @@ const LandingPage = () => {
           ))}
         </div>
       </section>
-
     </div>
   );
 };

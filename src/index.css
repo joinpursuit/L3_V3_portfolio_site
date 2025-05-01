@@ -12,10 +12,11 @@
 
 body {
   min-height: 100vh;
+  overflow-x: hidden;
   font-weight: 400;
   font-family: 'Fira Sans', sans-serif;
-  font-size: 20px;
-  line-height: 40px;
+  font-size: 16px;         /* More mobile-friendly */
+  line-height: 1.6;        /* More natural than 40px */
 }
 
 button {

@@ -49,3 +49,20 @@
 .project-card h3:hover {
   color: #3d52d5ff; /* byz-blue */
 }
+
+/* Mobile-only paragraph bubbles */
+.bio-bubble {
+  background-color: #f3f4f6;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 768px) {
+  .bio-bubble {
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
