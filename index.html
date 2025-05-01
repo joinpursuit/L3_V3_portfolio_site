@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <video autoplay muted loop class="hero-video">
+                <source src="https://videos.pexels.com/video-files/31245234/13344953_2560_1440_30fps.mp4" type="video/mp4">
+            </video>
+            <div class="hero-content">
+                <h1>Hello, I'm Sarah</h1>
+                <p>Welcome to My Software Engineering Journey</p>
+                <a href="#about" class="cta-button">Learn More</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="assets/MyPic.jpg" alt="Sarah" class="profile-photo">
+                <div class="about-text">
+                    <p>Hello! I'm a passionate and dedicated Full Stack Software Engineer with a background in both front-end and back-end development.</p>
+                    <p>My journey in software engineering began with a rigorous training program at Pursuit Fellowship, where I honed my skills in JavaScript, React, Node.js, and more.</p>
+                    <p>I have a proven track record of building robust, scalable web applications and collaborating effectively with cross-functional teams.</p>
+                    <ul class="skills">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>SOKA</h3>
+                <p>SOKA: A social fitness app that connects users based on their fitness goals. I integrated key features, designed the karma star and badge system, and managed the project using Trello.</p>
+                <br>
+                <a href="https://social-karma.netlify.app/" class="projects-button">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>NutraBot</h3>
+                <p>NutraBot: An app that helps users research and store food nutrition data. I implemented a calorie counter and custom food product feature, and managed the project using Trello.</p>
+                <br>
+                <a href="https://social-karma.netlify.app/" class="projects-button">View Project</a>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Email: SarahWeinstein@Pursuit.org</p>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Sarah's Software Engineering Journey. All rights reserved.</p>
+    </footer>
+</body>
+</html>
