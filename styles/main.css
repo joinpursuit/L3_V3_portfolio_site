@@ -25,6 +25,10 @@ p {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+}
+
 #header {
     display: flex;
     flex-direction: row;
@@ -65,7 +69,6 @@ p {
     font-weight:bold;
     margin: 10px;
     padding: 10px;
-    text-decoration: none;
     text-align: center;
 }
 
@@ -115,10 +118,34 @@ p {
 }
 
 #project img {
-    max-width: 600px ;
+    max-width: 600px;
     min-width: 300px;
     height: auto;
     padding: 10px;
+}
+
+#footer {
+    background-color: var(--jet);
+    color: var(--platinum);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+}
+
+#footer h2 {
+    color: var(--platinum);
+}
+
+#footer a {
+    color: var(--platinum);
+    padding: 10px;
+    font-size: 20px;
+}
+
+#footer a:hover {
+    color: var(--jet);
+    background-color: var(--platinum);
 }
 
 /* mobile responsive down to 375px */
