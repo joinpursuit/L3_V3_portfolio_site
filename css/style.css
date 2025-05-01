@@ -407,3 +407,60 @@ img {
   border-bottom: 1px solid #eee;
   padding-bottom: 5px;
 }
+
+.modal-tools .tools__container,
+.modal-links .links__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.modal-tools .tool {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.modal-tools .tool__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.modal-tools .tool__name {
+  font-size: 0.9rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.modal-links .link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 15px;
+  background-color: var(--secondary);
+  color: var(--text-light);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.modal-links .link:hover {
+  background-color: var(--primary);
+  text-decoration: none;
+  color: var(--text-light);
+}
+
+.modal-links .link__icon {
+  font-style: normal;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  /* filter: invert(1); */
+}
+.modal-links .link__name {
+  margin: 0;
+  font-size: 0.9rem;
+}
