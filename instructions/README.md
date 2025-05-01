@@ -49,11 +49,11 @@ portfolio-site/
 ---
 
 ## Submission Checklist
-- [ ] Add your instructor as a collaborator on your GitHub repo
-- [ ] Submit a Pull Request (PR) with your complete code
-- [ ] Link to your live site in the PR and `README.md`
-- [ ] PR includes multiple commits (not one giant commit)
-- [ ] HTML is semantic and passes a basic validator (like https://validator.w3.org/)
+- [x] Add your instructor as a collaborator on your GitHub repo
+- [x] Submit a Pull Request (PR) with your complete code
+- [x] Link to your live site in the PR and `README.md`
+- [x] PR includes multiple commits (not one giant commit)
+- [x] HTML is semantic and passes a basic validator (like https://validator.w3.org/)
 
 ---
 
