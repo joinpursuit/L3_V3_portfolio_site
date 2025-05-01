@@ -348,3 +348,62 @@ img {
 .project-modal:target {
   display: flex;
 }
+
+.modal-content {
+  position: relative; /* For positioning the close button */
+  /* background-color: var(--background-light); Now using container-glass */
+  color: var(--text-dark); /* Adjust if using dark glass */
+  padding: 30px;
+  border-radius: 10px; /* Already part of container-glass */
+  max-width: 90%;
+  width: 700px;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Enhance shadow */
+  /* Inherits glass styles from .container-glass added in HTML */
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--secondary);
+  text-decoration: none;
+  line-height: 1;
+}
+.modal-close-button:hover {
+  color: var(--text-dark);
+}
+
+.modal-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--primary);
+}
+
+/* .modal-information {
+
+} */
+
+.modal-snapshot {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.modal-description {
+  text-align: justify;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.modal-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
