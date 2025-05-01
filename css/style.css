@@ -228,6 +228,7 @@ img {
 }
 
 /* --- SkillSet --- */
+
 .skill-set {
   margin-top: 40px;
 }
@@ -271,4 +272,58 @@ img {
 .skill-name {
   font-size: 1rem;
   margin: 0;
+}
+
+/* --- Projects --- */
+
+.projects {
+  margin-top: 40px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.projects-container .card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: var(--background-light);
+}
+.projects-container .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.projects-container .card__snapshot {
+  border-radius: 0;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.projects-container .card__learn-more-btn {
+  margin: 15px;
+  padding: 10px 15px;
+  border: 0px;
+  color: var(--text-light);
+  font-size: 1.2rem;
+  background-color: var(--secondary);
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.projects-container .card__learn-more-btn:hover {
+  background-color: var(--primary);
+  text-decoration: none;
 }
