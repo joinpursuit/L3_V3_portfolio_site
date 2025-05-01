@@ -7,83 +7,36 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <a href="">Home</a>
-      <a href="">About me</a>
-      <a href="">Projects</a>
-      <a href="">Contact</a>
+    <nav class="navbar container-glass-dark">
+      <a class="navbar-option" href="#intro">
+        <img src="assets/icons/icon-user.svg" alt="Intro" class="icon" />
+        <span class="text">Intro</span>
+      </a>
+      <a class="navbar-option" href="#skill-set">
+        <img src="assets/icons/icon-tools.svg" alt="Skills" class="icon" />
+        <span class="text">Skills</span>
+      </a>
+      <a class="navbar-option" href="#projects">
+        <img src="assets/icons/icon-web.svg" alt="Projects" class="icon" />
+        <span class="text">Projects</span>
+      </a>
+      <div class="contact-links">
+        <a
+          class="navbar-option"
+          href="assets/other/YanakoCV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          <img
+            src="assets/icons/icon-suitcase.svg"
+            alt="Download CV"
+            class="icon"
+          />
+          <span class="text">Download CV</span>
+        </a>
+      </div>
     </nav>
-    <section class="section" id="home">
-      <h2 class="section-title">Yanako Lajara</h2>
-      <p>
-        I am a full-stack developer at Pursuit, interested in creating new
-        technologies to make everyone's life more comfortable. Pursuit is an
-        intensive 12-month software engineering fellowship with a 9% acceptance
-        rate. I am skilled in Postgres, Express.js, React.js, JavaScript, Java,
-        Python, HTML, CSS, Node, Git, Algorithms, code reviews, and pair
-        programming. I started my developer journey in 2016 by learning basic
-        HTML, CSS, JavaScript, and Arduino at a summer club. Since that, my
-        passion for technology and programming has been growing exponentially. A
-        fun fact about me that makes me an enthusiastic developer is that even
-        if coding is part of my professional career, whenever I have free time,
-        I still use it to code for fun instead of taking a break.
-      </p>
-    </section>
-    <section class="section" id="about-me">
-      <h2 class="section-title">About me</h2>
-      <section class="about-me__skills">
-        <h3>Skills</h3>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Java</li>
-          <li>Python</li>
-          <li>Postgres</li>
-          <li>Express.js</li>
-          <li>React.js</li>
-          <li>Node.js</li>
-          <li>Git</li>
-          <li>Algorithms</li>
-          <li>Code reviews</li>
-          <li>Pair programming</li>
-        </ul>
-      </section>
-      <section class="about-me about-me__education">
-        <h3>Education</h3>
-        <ul>
-          <li>High School Diploma</li>
-          <li>Software Engineering Fellowship</li>
-        </ul>
-      </section>
-      <section class="about-me about-me__jobs">
-        <h3>Jobs</h3>
-        <ul>
-          <li>Best buy employee</li>
-        </ul>
-      </section>
-    </section>
-    <section class="section" id="projects">
-      <h2 class="section-title">Projects</h2>
-      <section class="project">
-        <h3>Project 1</h3>
-        <p>Project 1 description</p>
-      </section>
-      <section class="project">
-        <h3>Project 2</h3>
-        <p>Project 2 description</p>
-      </section>
-    </section>
-    <section class="section" id="contact">
-      <h2 class="section-title">Contact</h2>
-      <p>contact info</p>
-      <ul>
-        <li>email</li>
-        <li>phone number</li>
-        <li>github</li>
-        <li>linkedin</li>
-        <li>resume</li>
-      </ul>
-    </section>
+    <main class="home"></main>
   </body>
 </html>
