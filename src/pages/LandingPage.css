@@ -1,0 +1,51 @@
+/* pages/LandingPage.css */
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Delayed fade for project cards */
+.fade-up {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.delay:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.delay:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.delay:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.delay:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+/* Reusable fade class for sections */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.2s;
+}
+
+/* Section-specific touch */
+.hero-section h1,
+.about-section h2,
+.project-card h3 {
+  transition: color 0.3s ease;
+}
+
+.hero-section h1:hover,
+.project-card h3:hover {
+  color: #3d52d5ff; /* byz-blue */
+}

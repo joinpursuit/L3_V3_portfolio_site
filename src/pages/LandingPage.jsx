@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import './LandingPage.css';
 
 const projects = [
   {
@@ -38,9 +39,13 @@ const LandingPage = () => {
     <div className="min-h-screen bg-gradient-to-b from-light-blue to-white flex flex-col items-center">
 
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center text-center py-24 px-6">
-        <h1 className="text-5xl md:text-6xl font-extrabold text-duke-blue mb-6">Hi, I'm Michael Restrepoross</h1>
-        <h2 className="text-2xl md:text-3xl text-byz-blue mb-8">Aspiring Software Engineer | Full-Stack Developer</h2>
+      <section className="hero-section flex flex-col items-center justify-center text-center py-24 px-6 fade-up">
+        <h1 className="text-5xl md:text-6xl font-extrabold text-duke-blue mb-6">
+          Hi, I'm Michael Restrepoross
+        </h1>
+        <h2 className="text-2xl md:text-3xl text-byz-blue mb-8">
+          Aspiring Software Engineer | Full-Stack Developer
+        </h2>
         <div className="flex gap-6">
           <button
             onClick={handleContactClick}
@@ -58,10 +63,9 @@ const LandingPage = () => {
       </section>
 
       {/* About Me Section */}
-      <section className="w-full max-w-5xl bg-white shadow-dark-lg rounded-xl p-10 my-10 mx-4 text-center">
+      <section className="about-section w-full max-w-5xl bg-white shadow-dark-lg rounded-xl p-10 my-10 mx-4 text-center fade-in">
         <h2 className="text-4xl font-bold text-duke-blue mb-6">About Me</h2>
 
-        {/* Profile Image */}
         <div className="flex justify-center mb-6">
           <img
             src="https://res.cloudinary.com/dm8xhvx4t/image/upload/v1746050104/Michael_Restrepoross_kyh9fu.jpg"
@@ -71,7 +75,7 @@ const LandingPage = () => {
         </div>
 
         <p className="text-gray-700 text-lg mb-4">
-          I'm Michael Restrepoross, a full-stack software engineer from Mineola, NY with a background in computer science and a concentration in cybersecurity.
+          I'm Michael Restrepoross, a full-stack software engineer with a background in computer science and a concentration in cybersecurity.
         </p>
 
         <p className="text-gray-700 text-lg mb-4">
@@ -88,21 +92,21 @@ const LandingPage = () => {
       </section>
 
       {/* Projects Section */}
-      <section className="w-full max-w-6xl px-6 py-16">
+      <section className="w-full max-w-6xl px-6 py-16 fade-in">
         <h2 className="text-4xl font-bold text-duke-blue text-center mb-12">Featured Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white p-8 rounded-lg shadow-dark-lg hover:shadow-dark-xl transition duration-300 flex flex-col items-start"
+              className="project-card bg-white p-8 rounded-lg shadow-dark-lg hover:shadow-dark-xl transition duration-300 flex flex-col items-start fade-up delay"
             >
-            <div className="bg-light-blue rounded-lg p-4 mb-6 w-full flex justify-center">
-              <img
-                src={project.logo}
-                alt={`${project.title} Logo`}
-                className="h-32 object-contain"
-              />
-            </div>
+              <div className="bg-light-blue rounded-lg p-4 mb-6 w-full flex justify-center">
+                <img
+                  src={project.logo}
+                  alt={`${project.title} Logo`}
+                  className="h-32 object-contain"
+                />
+              </div>
               <h3 className="text-2xl font-bold text-duke-blue mb-2">{project.title}</h3>
               <p className="text-sm italic text-gray-500 mb-4">Tech: {project.tech}</p>
               <p className="text-gray-700 mb-4">{project.description}</p>
