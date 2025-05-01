@@ -127,3 +127,38 @@ img {
   display: flex;
   align-items: center;
 }
+
+.navbar-option {
+  display: grid;
+  grid-template-rows: 70% 30%;
+  justify-items: center;
+  align-items: center;
+  min-width: 70px;
+  height: 70px;
+  margin: 0 3px;
+  border: 0px;
+  border-radius: 0.5rem;
+  background: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-option .icon {
+  width: 35px;
+  height: 35px;
+  font-size: 35px;
+  align-self: center;
+  justify-self: center;
+  filter: brightness(0) invert(1);
+}
+
+.navbar-option .text {
+  align-self: end;
+  justify-self: center;
+  margin: 0;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1;
+}
