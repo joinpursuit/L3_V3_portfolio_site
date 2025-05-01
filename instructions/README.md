@@ -21,8 +21,8 @@ This is a low-lift, high-value opportunity to get into the rhythm of:
 
 ## Requirements
 - [x] A `README.md` file that includes your name, a short bio, and a link to the deployed site
-- [ ] A responsive layout that works on both mobile and desktop
-- [ ] The following sections:
+- [x] A responsive layout that works on both mobile and desktop
+- [x] The following sections:
   - **Home** – Welcome message and name
   - **About Me** – Short background, skills, and interests
   - **Projects** – A placeholder or sample project card (you'll add more here throughout the program)
