@@ -1,0 +1,193 @@
+:root {
+    --jet: #282B2B;
+    --cadet-gray: #7AA6B3;
+    --platinum: #E8E7E3;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--jet) ;
+}
+
+#header h1 {
+    color: var(--platinum);
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+#profile-picture {
+    min-width: 92px;
+    border-radius: 25%;
+    width: 30%;
+    height: auto;
+    margin: 40px;
+}
+
+#navbar {
+    background-color: var(--cadet-gray);
+    padding: 15px;
+    height: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navbar a {
+    color: white;
+    font-size: 24px;
+    font-weight:bold;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar a:hover {
+    background-color: var(--platinum);
+    color: var(--cadet-gray)
+}
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-me-bio-container{
+    padding: 0 30px 0 30px;
+}
+
+#projects {
+    background-color: var(--cadet-gray);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#projects-container {
+    padding:0 16px;
+}
+
+#project {
+    background-color: var(--jet);
+}
+
+#project-title {
+    text-align: center;
+    padding: 15px 5px;
+    margin: 0;
+}
+
+#project-title a {
+    color: white
+}
+
+#project-info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+#project img {
+    max-width: 600px;
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+#footer {
+    background-color: var(--jet);
+    color: var(--platinum);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+}
+
+#footer h2 {
+    color: var(--platinum);
+}
+
+#footer a {
+    color: var(--platinum);
+    padding: 10px;
+    font-size: 20px;
+}
+
+#footer a:hover {
+    color: var(--jet);
+    background-color: var(--platinum);
+}
+
+/* mobile responsive down to 375px */
+@media (max-width: 700px ) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #header h1 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #navbar {
+        height: 30px;
+        padding: 5px;
+    }
+
+    #navbar a {
+        font-size: 14px;
+    }
+
+    #project-info-container {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
