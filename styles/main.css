@@ -89,7 +89,7 @@ main {
   text-decoration: none;
   border-radius: 15px;
   font-weight: 600;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s;;
 }
 
 .cta-button:hover {
@@ -139,7 +139,8 @@ main {
 }
 
 
-.projects button {
+.projects-button {
+  text-decoration: none;
     background-color: #ff6347;
     color: #fff;
     padding: 1rem;
