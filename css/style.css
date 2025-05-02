@@ -101,10 +101,14 @@ body {
 .introduction {
   display: flex;
   flex-direction: row;
-  max-width: 1200px;
   margin: 50px auto 0px auto;
   padding: var(--space-4);
   text-align: center;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .name {
@@ -128,11 +132,11 @@ body {
 }
 
 .picture-container {
-  width: 30%;
+  width: 50%;
 }
 
 .picture-container img {
-  width: 100%;
+  width: 60%;
   border-radius: 10px;
 }
 
@@ -279,6 +283,7 @@ body {
 @media (max-width: 768px) {
   .introduction {
     padding: var(--space-3);
+    background-color: red;
   }
 
   .name {
@@ -295,6 +300,9 @@ body {
 }
 
 @media (max-width: 480px) {
+  .introduction {
+    flex-direction: column;
+  }
   .navbar {
     width: 90%;
   }
