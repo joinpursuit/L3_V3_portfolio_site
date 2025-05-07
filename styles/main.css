@@ -1,16 +1,18 @@
 body {
     background-color: #121212;
     color: #EAEAEA;
-    padding-top: 100px;
+    cursor: default;
+    margin: 0;
 }
 .navbar{
     background-color: #10B981;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     left: 0;
     overflow: hidden;
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
+    z-index: 1000;
 }
 .navbar a{
     color: #EAEAEA;
@@ -28,6 +30,54 @@ body {
     list-style: none;
     padding: 14px 16px;
     text-decoration: none;
+}
+#about, #contact, #projects, h1{
+    padding: 0 10px 0 10px;
+}
+h2:hover, h3:hover{
+    color: #10B981;
+}
+strong:hover{
+    color: #10B981;
+}
+.about-top-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-text-sharing-container-with-img{
+    width: 60%;
+}
+.profile-pic-container{
+    height: 300px;
+    width: 300px;
+    border: 1px solid #10B981;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10px 20px;
+    z-index: 0;
+}
+.profile-pic{
+    /* height: 0%; */
+    /* width: 60%; */  
+    margin: 20px 20px 0 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: static;
+    z-index: 1;
+}
+.contact-me-link{
+    color: #10B981;
+}
+.skills{
+    background-color: #10b98147;
+    display: flex;
+    justify-content:space-evenly; ;
+    padding: 8px;
+    /* margin: 20px; */
+}
+#technical-skills, #soft-skills, #organizational-skills{
+    list-style: none;
 }
 .temp-placeholder{
     height: 300px;
