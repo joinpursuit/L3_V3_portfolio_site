@@ -1,11 +1,14 @@
 body {
-    background-color: #121212;
-    color: #EAEAEA;
+    /* background-color: #000; */
+    background: #000 url('/images/BLOB.svg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
     cursor: default;
     margin: 0;
 }
+/* NAVBAR STYLING */
 .navbar{
-    background-color: #10B981;
+    background-color: #14213d;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     left: 0;
     overflow: hidden;
@@ -15,30 +18,41 @@ body {
     z-index: 1000;
 }
 .navbar a{
-    color: #EAEAEA;
+    color: #fff;
     display: block;
     padding: 14px 16px;
     text-decoration: none;
 }
 .navbar a:hover{
-    background-color: #059669;
-    color: white;
+    background-color: #fff;
+    color: #14213d;
 }
 .nav-list-container{
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 14px 16px;
     text-decoration: none;
 }
-#about, #contact, #projects, h1{
-    padding: 0 10px 0 10px;
+
+/* ABOUT SECTION */
+h1{
+    color: #e5e5e5;
+    font-size: 2.5em;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.main-content, h1{
+    padding: 0 5% 0 5%;
+}
+.about-text {
+    width: 70%;
 }
 h2:hover, h3:hover{
-    color: #10B981;
+    color: #fca311;
 }
 strong:hover{
-    color: #10B981;
+    color: #fca311;
 }
 .about-top-container{
     display: flex;
@@ -50,15 +64,13 @@ strong:hover{
 .profile-pic-container{
     height: 300px;
     width: 300px;
-    border: 1px solid #10B981;
+    border: 1px solid #e5e5e5;
     display: flex;
     justify-content: center;
     margin: 0 0 10px 20px;
     z-index: 0;
 }
 .profile-pic{
-    /* height: 0%; */
-    /* width: 60%; */  
     margin: 20px 20px 0 0;
     object-fit: cover;
     width: 100%;
@@ -67,18 +79,138 @@ strong:hover{
     z-index: 1;
 }
 .contact-me-link{
-    color: #10B981;
+    color: #fca311;
 }
 .skills{
-    background-color: #10b98147;
+    background-color: #e5e5e5;
+    color: #000;
     display: flex;
     justify-content:space-evenly; ;
     padding: 8px;
-    /* margin: 20px; */
 }
 #technical-skills, #soft-skills, #organizational-skills{
     list-style: none;
 }
+/* PROJECTS SECTION */
+.project-card a{
+    color: #EAEAEA;
+    text-decoration: none;
+}
+.overlay{
+    background-color: rgba(31, 23, 23, 0.748); /* overlay effect */
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;    
+}
+.project-card{
+    border: 3px solid #fca311;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+}
+.card-content {
+    position: relative;
+    z-index: 2;
+}
+.card-content > ul > li {
+    padding-bottom: 1%;
+  }
+  .key-features {
+    list-style: none;
+  }
+.project-1{
+    background-image:url(../images/demo/HappinessExchange.png);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    z-index: 2;
+    
+}   
+.project-2{
+    background-image:url(../images/demo/whatsDish.png);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    z-index: 2;
+    
+}   
+.project-3{
+    background-image:url(../images/demo/Student-dashboard.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+.github-link {
+    color: #EAEAEA;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 3;
+}
+.project-skills-btn{
+    background-color: #000;
+    border: 1px solid #fca311;
+    border-radius: 10%;
+    color: #EAEAEA;
+}
 .temp-placeholder{
     height: 300px;
+}
+
+/* MEDIA QUERIES  */
+@media screen and (max-width: 630px) {
+  .about-top-container, .main-content {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-text-sharing-container-with-img, .about-text {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .profile-pic-container {
+    border: 1px solid #fca311;
+    height: auto;
+    margin: 0 auto 20px auto;
+    width: 40%;
+  }
+
+  .profile-pic {
+    height: auto;
+    width: 100%;
+  }
+
+  .skills {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #technical-skills, 
+  #soft-skills, 
+  #organizational-skills {
+    margin-bottom: 20px;
+  }
+
+  h1, h2, h3, p {
+    text-align: center;
+  }
+  .card-content > p {
+    text-align: left;
+  }
+  .card-content > ul {
+    padding: 2%
+  }
+  .card-content > ul > li {
+    padding-bottom: 3%
+  }
+
 }
