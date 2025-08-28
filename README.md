@@ -1,100 +1,69 @@
-# Portfolio Website Project — Week 1
+# 💻 Portfolio Website — Week 1 Project
 
-## Overview
-Welcome to your first project! In this one-week assignment, you'll create a **personal portfolio website** using only **HTML and CSS**. This project will serve as your personal hub for showcasing your work throughout the program, including your full-stack and mobile apps — as well as any other projects you build outside the curriculum.
+## 🚀 Overview
 
-This is a low-lift, high-value opportunity to get into the rhythm of:
-- Writing clean, semantic code
-- Using GitHub properly (commits, branches, PRs)
-- Deploying a live website
-- Receiving and applying instructor feedback via PRs
+This is my personal portfolio website built with **HTML** and **CSS**. It serves as a foundation for showcasing my skills and projects as I grow through the program and beyond.
 
----
+The project focuses on:
+- Writing clean, semantic HTML
+- Styling using organized CSS
+- Practicing Git/GitHub workflows
+- Deploying a live, responsive website
 
-## Goals
-- Build a fully responsive portfolio site with semantic HTML and styled using CSS
-- Practice making clean commits and submitting pull requests
-- Deploy the website using GitHub Pages or Netlify
-- Set the foundation for your technical presence
+## 🌐 Live Site
 
----
+👉 [View My Portfolio](https://saraithomasv1.netlify.app)
 
-## Requirements
-- [ ] A `README.md` file that includes your name, a short bio, and a link to the deployed site
-- [ ] A responsive layout that works on both mobile and desktop
-- [ ] The following sections:
-  - **Home** – Welcome message and name
-  - **About Me** – Short background, skills, and interests
-  - **Projects** – A placeholder or sample project card (you'll add more here throughout the program)
-  - **Contact** – Email or form (does not need to be functional)
+## 🙋‍♀️ About Me
 
----
+Hi! I'm Sarai Thomas, an aspiring developer passionate about creativity, technology, and storytelling. My background includes:
 
-## Suggested File Structure
-```
+- 💎 Running a custom jewelry brand (GLD RZE)
+- ✍️ Content creation and digital marketing
+- 🎨 Visual arts and design
+- 👩‍💻 Learning full-stack development
+
+## 🧩 Sections
+
+- **Home**: Hero banner with my name and intro message
+- **About Me**: Background, interests, and skill highlights
+- **Projects**: Placeholder for future web and mobile projects
+- **Contact**: Email form styled for mobile and desktop
+
+## 📁 File Structure
 portfolio-site/
 ├── index.html
 ├── styles/
-│   └── main.css
+│ └── main.css
 └── README.md
-```
+
+## 🧪 Tech & Tools
+
+- HTML5, CSS3 (Flexbox + Media Queries)
+- Google Fonts
+- Netlify for deployment
+- Git & GitHub for version control
+
+## 📋 Checklist
+
+- [x] Responsive design for mobile and desktop
+- [x] Semantic HTML
+- [x] Clean, organized CSS
+- [x] Multiple commits and a proper PR
+- [x] Live site linked in README
+- [x] Contact form styled and present
+
+## 📸 Screenshot
+
+![Portfolio Screenshot](./images/assets/landingpage.png)
+![Mobile Screenshot](./images/assets/mobile-view.jpeg)
+
+## 🗒 Instructor Notes
+
+This project kickstarts my professional online presence and gives me a foundation to build upon. I’ll continue to iterate on this portfolio as I complete more projects and sharpen my development skills.
 
 ---
 
-## Deployment
-- You may deploy using:
-  - **GitHub Pages** (recommended for simple site and can link to your profile)
-  - **Netlify** (optional but powerful, take into consideration your usecase)
+### ✨ Let's connect!
 
----
-
-## Submission Checklist
-- [ ] Add your instructor as a collaborator on your GitHub repo
-- [ ] Submit a Pull Request (PR) with your complete code
-- [ ] Link to your live site in the PR and `README.md`
-- [ ] PR includes multiple commits (not one giant commit)
-- [ ] HTML is semantic and passes a basic validator (like https://validator.w3.org/)
-
----
-
-## Tips
-- Use [Google Fonts](https://fonts.google.com/) to make it look polished
-- Don’t worry about JavaScript — just focus on layout and styling
-- Keep your CSS organized (use class naming conventions and grouping)
-- You can use tools like [Figma](https://www.figma.com/) or [Excalidraw](https://excalidraw.com/) when planning your layout first
-
----
-
-## Sample Portfolio Layout Template
-You can model your structure after the following:
-
-```
-┌───────────────────────────────────────────┐
-│ Navbar: Home | About | Projects | Contact │
-├───────────────────────────────────────────┤
-│ [Hero Section]                            │
-│ Hi, I'm [Your Name]                       │
-│ Aspiring Software Engineer                │
-├───────────────────────────────────────────┤
-│ About Me                                  │
-│ - Background, photo, skills               │
-├───────────────────────────────────────────┤
-│ Projects                                  │
-│ - Placeholder card(s)                     │
-├───────────────────────────────────────────┤
-│ Contact                                   │
-│ - Email or contact form                   │
-└───────────────────────────────────────────┘
-```
-
----
-
-## Instructor Notes
-This is your first opportunity to:
-- Show ownership of your code
-- Get into the habit of submitting PRs with context
-- Start building your professional developer presence
-- Check out my site for inspiration! but please if you use a template, make it your own
-- https://joseivanmejia.com/
-
-Use this site as your personal brand, your portfolio is your story! Above all have fun. 
+📬 [Email Me](mailto:thomas.a.sarai@gmail.com)

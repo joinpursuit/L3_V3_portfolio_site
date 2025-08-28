@@ -1,0 +1,262 @@
+body {
+    background: #000 url('/images/BLOB.svg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    cursor: default;
+    margin: 0;
+}
+/* NAVBAR STYLING */
+.navbar{
+    background-color: #14213d;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    left: 0;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar a{
+    color: #fff;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #fff;
+    color: #14213d;
+}
+.nav-list-container{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ABOUT SECTION */
+h1{
+    color: #e5e5e5;
+    font-size: 2.5em;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.main-content, h1{
+    padding: 0 5% 0 5%;
+}
+.about-text {
+    width: 70%;
+}
+h2:hover, h3:hover{
+    color: #fca311;
+}
+strong:hover{
+    color: #fca311;
+}
+.about-top-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-text-sharing-container-with-img{
+    width: 60%;
+}
+.profile-pic-container{
+    height: 300px;
+    width: 300px;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10px 20px;
+    z-index: 0;
+}
+.profile-pic{
+    margin: 20px 20px 0 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: static;
+    z-index: 1;
+}
+.contact-me-link{
+    color: #fca311;
+}
+.skills{
+    background-color: #e5e5e58e;
+    color: #000;
+    display: flex;
+    justify-content:space-evenly; ;
+    padding: 8px;
+}
+#technical-skills, #soft-skills, #organizational-skills{
+    list-style: none;
+}
+/* PROJECTS SECTION */
+.project-card a{
+    color: #EAEAEA;
+    text-decoration: none;
+}
+.overlay{
+    background-color: rgba(31, 23, 23, 0.748); /* overlay effect */
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;    
+}
+.project-card{
+    border: 3px solid #fca311;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+}
+.card-content {
+    position: relative;
+    z-index: 2;
+}
+.card-content > ul > li {
+    padding-bottom: 1%;
+}
+.key-features {
+    list-style: none;
+}
+.project-1{
+    background-image:url(../images/demo/HappinessExchange.png);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    z-index: 2;
+    
+}   
+.project-2{
+    background-image:url(../images/demo/whatsDish.png);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    z-index: 2;
+    
+}   
+.project-3{
+    background-image:url(../images/demo/Student-dashboard.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+.github-link {
+    color: #EAEAEA;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 3;
+}
+.project-skills-btn{
+    background-color: #000;
+    border: 1px solid #fca311;
+    border-radius: 10%;
+    color: #fff;
+    margin: 2px;
+    padding: 5px;
+}
+
+/* CONTACT SECTION */
+.contact-form {
+    background-color: #e5e5e58e;
+    border-radius: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}  
+#message,
+#email,
+#name, 
+#form-btn{
+    border: 1px solid #fca311;
+    border-radius: 1px;
+    box-sizing: border-box;
+    color: #000;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 90%;
+}
+#form-btn{
+    background-color: #fca311;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.success {
+    background: #fff;
+    border-radius: 1px;
+    color: #24972a;
+    padding: 0.5rem;
+    text-align: center;
+}
+.error {
+    background: #fff;
+    border-radius: 1px;
+    color: #d01414;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+/* MEDIA QUERIES  */
+@media screen and (max-width: 630px) {
+    body {
+        background: #000 url('/images/BLOB.svg') repeat-x center left fixed;
+        background-size:cover;
+    }
+    .about-top-container, .main-content {
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-text-sharing-container-with-img, .about-text {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    .profile-pic-container {
+        border: 1px solid #fca311;
+        height: auto;
+        margin: 0 auto 20px auto;
+        width: 40%;
+    }
+    .profile-pic {
+        height: auto;
+        width: 100%;
+    }
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+    #technical-skills, 
+    #soft-skills, 
+    #organizational-skills {
+        margin-bottom: 20px;
+    }
+    h1, h2, h3, p {
+        text-align: center;
+    }
+    .card-content > p {
+        text-align: left;
+    }
+    .card-content > ul {
+        padding: 2%
+    }
+    .card-content > ul > li {
+        padding-bottom: 3%
+    }
+    .contact-form input, 
+    .contact-form textarea, 
+    #form-btn {
+        margin: 5px;
+        width: 90%;
+    }
+
+}
